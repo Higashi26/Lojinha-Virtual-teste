@@ -1,0 +1,49 @@
+@media(max-width: 1280px) {
+    .cabecalho {
+        padding: 20px;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+        padding: 30px;
+    
+    }
+
+    .home .informacoes {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: 5px;
+        gap: 1px;
+    }
+
+    .produtos .container-produtos {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 425px) {
+    .home .informacoes h1 {
+        font-size: 40px;
+        
+    }
+
+    .home .informacoes p {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .home .container-foto img {
+        max-width: 200px;
+        align-items: center;
+
+    
+        
+    }
+
+    .produtos {
+        padding: 20px;
+    }
+
+}
